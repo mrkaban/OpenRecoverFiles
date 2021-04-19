@@ -1,0 +1,6 @@
+C:\Users\mrKaban\Desktop\kickassundelete\FileSystems\bin\Debug\FileSystems.dll
+C:\Users\mrKaban\Desktop\kickassundelete\FileSystems\bin\Debug\FileSystems.pdb
+C:\Users\mrKaban\Desktop\kickassundelete\FileSystems\bin\Debug\Ionic.Zip.dll
+C:\Users\mrKaban\Desktop\kickassundelete\FileSystems\obj\Debug\FileSystems.csprojResolveAssemblyReference.cache
+C:\Users\mrKaban\Desktop\kickassundelete\FileSystems\obj\Debug\FileSystems.dll
+C:\Users\mrKaban\Desktop\kickassundelete\FileSystems\obj\Debug\FileSystems.pdb
