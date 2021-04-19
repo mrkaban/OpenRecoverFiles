@@ -1,0 +1,15 @@
+C:\Users\mrKaban\Desktop\kickassundelete\KickassUndelete\bin\Debug\KickassUndelete.exe.config
+C:\Users\mrKaban\Desktop\kickassundelete\KickassUndelete\obj\Debug\KickassUndelete.DeletedFileViewer.resources
+C:\Users\mrKaban\Desktop\kickassundelete\KickassUndelete\obj\Debug\KickassUndelete.MainForm.resources
+C:\Users\mrKaban\Desktop\kickassundelete\KickassUndelete\obj\Debug\KickassUndelete.Properties.Resources.resources
+C:\Users\mrKaban\Desktop\kickassundelete\KickassUndelete\obj\Debug\KickassUndelete.csproj.GenerateResource.Cache
+C:\Users\mrKaban\Desktop\kickassundelete\KickassUndelete\bin\Debug\KickassUndelete.exe
+C:\Users\mrKaban\Desktop\kickassundelete\KickassUndelete\bin\Debug\KickassUndelete.pdb
+C:\Users\mrKaban\Desktop\kickassundelete\KickassUndelete\bin\Debug\FileSystems.dll
+C:\Users\mrKaban\Desktop\kickassundelete\KickassUndelete\bin\Debug\GuiComponents.dll
+C:\Users\mrKaban\Desktop\kickassundelete\KickassUndelete\bin\Debug\FileSystems.pdb
+C:\Users\mrKaban\Desktop\kickassundelete\KickassUndelete\bin\Debug\GuiComponents.pdb
+C:\Users\mrKaban\Desktop\kickassundelete\KickassUndelete\bin\Debug\GuiComponents.xml
+C:\Users\mrKaban\Desktop\kickassundelete\KickassUndelete\obj\Debug\KickassUndelete.csprojResolveAssemblyReference.cache
+C:\Users\mrKaban\Desktop\kickassundelete\KickassUndelete\obj\Debug\KickassUndelete.exe
+C:\Users\mrKaban\Desktop\kickassundelete\KickassUndelete\obj\Debug\KickassUndelete.pdb
