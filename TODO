@@ -1,0 +1,18 @@
+ o Check it still works on Windows
+   o Either fix UnixSymbolicLinkInfo or make it optional somehow...
+	 - Make a single binary for all platforms if possible.
+ o Implement linux disk system
+ o Remove dependency on Ionic.Zip
+ o Do actual file system checking on stream, rather than trusting partition id
+   o Implement for NTFS
+	 o Implement for FAT16/FAT32
+ - Fix linux GUI bugs
+ - CLI interface improvements
+   o Write error messages to stderr, not stdout
+	 - Tidy up Program.cs and ConsoleCommands.cs
+ - Linux backend issues
+   - Don't read extended partitions.
+
+ - Regression tests
+ - Test on a variety of images/computers
+
