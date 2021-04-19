@@ -1,0 +1,11 @@
+C:\Users\mrKaban\Desktop\kickassundelete\GuiComponents\bin\Debug\GuiComponents.XML
+C:\Users\mrKaban\Desktop\kickassundelete\GuiComponents\bin\Debug\GuiComponents.dll
+C:\Users\mrKaban\Desktop\kickassundelete\GuiComponents\bin\Debug\GuiComponents.pdb
+C:\Users\mrKaban\Desktop\kickassundelete\GuiComponents\bin\Debug\FileSystems.dll
+C:\Users\mrKaban\Desktop\kickassundelete\GuiComponents\bin\Debug\FileSystems.pdb
+C:\Users\mrKaban\Desktop\kickassundelete\GuiComponents\obj\Debug\GuiComponents.csprojResolveAssemblyReference.cache
+C:\Users\mrKaban\Desktop\kickassundelete\GuiComponents\obj\Debug\KFA.GUI.Explorers.FileExplorer.resources
+C:\Users\mrKaban\Desktop\kickassundelete\GuiComponents\obj\Debug\GuiComponents.ProgressPopup.resources
+C:\Users\mrKaban\Desktop\kickassundelete\GuiComponents\obj\Debug\GuiComponents.csproj.GenerateResource.Cache
+C:\Users\mrKaban\Desktop\kickassundelete\GuiComponents\obj\Debug\GuiComponents.dll
+C:\Users\mrKaban\Desktop\kickassundelete\GuiComponents\obj\Debug\GuiComponents.pdb

@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GuiComponents</name>
+    </assembly>
+    <members>
+        <member name="T:KFA.GUI.Explorers.IExplorer">
+            <summary>
+            The interface for an explorer widget.
+            </summary>
+        </member>
+        <member name="M:KFA.GUI.Explorers.IExplorer.CanView(KFS.DataStream.IDataStream)">
+            <summary>
+            Gets whether this explorer can view a particular stream.
+            </summary>
+            <param name="stream">The stream to view.</param>
+            <returns>Whether the stream can be viewed by this explorer.</returns>
+        </member>
+        <member name="M:KFA.GUI.Explorers.IExplorer.View(KFS.DataStream.IDataStream)">
+            <summary>
+            Views a data stream. Clients should check that CanView(stream)
+            returns true before calling this method.
+            </summary>
+            <param name="stream">The data stream to view.</param>
+        </member>
+        <member name="T:KFA.GUI.Explorers.FileExplorer">
+            <summary>
+            Builds a treeview of the filesystem in a given IFileSystemStore.
+            </summary>
+        </member>
+        <member name="F:KFA.GUI.Explorers.FileExplorer.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:KFA.GUI.Explorers.FileExplorer.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:KFA.GUI.Explorers.FileExplorer.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:KFA.GUI.Explorers.FileExplorer.#ctor">
+            <summary>
+            Constructs the file explorer.
+            </summary>
+        </member>
+        <member name="M:KFA.GUI.Explorers.FileExplorer.AppendChildren(System.Windows.Forms.TreeNode,System.Collections.Generic.IEnumerable{KFS.FileSystems.IFileSystemNode})">
+            <summary>
+            Creates TreeNodes for a list of given FileSystemNodes and appends them to
+            the specified TreeNode as children.
+            </summary>
+            <param name="node">The node to which the new children will be appended.</param>
+            <param name="children">The filesystem nodes to create TreeNodes for.</param>
+        </member>
+        <member name="M:KFA.GUI.Explorers.FileExplorer.CanView(KFS.DataStream.IDataStream)">
+            <summary>
+            Gets whether this explorer can view a particular stream.
+            </summary>
+            <param name="stream">The stream to view.</param>
+            <returns>Whether the stream can be viewed by this explorer.</returns>
+        </member>
+        <member name="M:KFA.GUI.Explorers.FileExplorer.View(KFS.DataStream.IDataStream)">
+            <summary>
+            Views a data stream. Clients should check that CanView(stream)
+            returns true before calling this method.
+            </summary>
+            <param name="stream">The data stream to view.</param>
+        </member>
+        <member name="M:KFA.GUI.Explorers.FileExplorer.SaveFolder(KFS.FileSystems.Folder,System.String)">
+            <summary>
+            Saves a folder full of recovered files to the specified path.
+            </summary>
+            <param name="folder">The folder to save.</param>
+            <param name="path">The path to save the folder to.</param>
+        </member>
+        <member name="M:KFA.GUI.Explorers.FileExplorer.SaveFile(KFS.FileSystems.FileSystemNode,System.String)">
+            <summary>
+            Saves a single recovered file to disk.
+            </summary>
+            <param name="file">The file to save.</param>
+            <param name="filePath">The path to save the file to.</param>
+        </member>
+        <member name="E:KFA.GUI.Explorers.FileExplorer.StreamSelected">
+            <summary>
+            This event is fired when an IDataStream is selected in this explorer by the user.
+            </summary>
+        </member>
+        <member name="T:KFA.GUI.Explorers.StreamSelectedEventHandler">
+            <summary>
+            An event handler to be used when a stream is selected.
+            </summary>
+            <param name="sender"></param>
+            <param name="stream"></param>
+        </member>
+        <member name="T:GuiComponents.ProgressPopup">
+            <summary>
+            A minimal popup window that displays a progress bar.
+            </summary>
+        </member>
+        <member name="F:GuiComponents.ProgressPopup.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:GuiComponents.ProgressPopup.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:GuiComponents.ProgressPopup.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:GuiComponents.ProgressPopup.#ctor(GuiComponents.IProgressable)">
+            <summary>
+            Constructs the popup window.
+            </summary>
+        </member>
+        <member name="T:GuiComponents.IProgressable">
+            <summary>
+            An object that reports its progress in completing some action.
+            </summary>
+        </member>
+        <member name="E:GuiComponents.IProgressable.Progress">
+            <summary>
+            Fires whenever a progress update is made.
+            </summary>
+        </member>
+        <member name="E:GuiComponents.IProgressable.Finished">
+            <summary>
+            Fires when the process is complete.
+            </summary>
+        </member>
+        <member name="T:GuiComponents.ProgressEvent">
+            <summary>
+            A type of event that occurs when progress has been made.
+            </summary>
+            <param name="status">A text description of the current progress.</param>
+            <param name="progress">
+            	A number from 0.0 to 1.0 representing the current progress.
+            </param>
+        </member>
+    </members>
+</doc>
